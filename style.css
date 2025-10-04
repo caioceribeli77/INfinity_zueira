@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(60, 60, 60);
+}
+
+#titulo {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+#titulo img {
+  height: 100px;
+  padding-right: 15px;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  width: 275px;
+}
+
+#nav button {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#nav button:hover {
+  color: red;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+#divisor {
+  background-color: red;
+  height: 1px;
+  width: 100%;
+}
+
+main {
+  padding: 20px;
+}
+
+main section {
+  background-color: rgb(40, 40, 40);
+  border-radius: 30px;
+  margin-bottom: 20px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img {
+  padding: 30px;
+  width: 900px;
+  height: 1000px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+#texto h1 {
+    font-size: 120px;
+    background-image: url(img/flames.gif);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#texto h2 {
+  font-size: 50px;
+  background-image: url(img/flames.gif);
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+#texto p {
+    color: white;
+    font-size: 30px;
+}
+
+#campoFormulario{
+    display: grid;
+}
+
+#logo2{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+#formu{
+    display: grid;
+}
+
+#formu label{
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+#formu input{
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    width: 500px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+#formu button{
+    height: 50px;
+    border: solid 3px black;
+    border-radius: 100px;
+    margin-top:  10px;
+    margin-bottom:  15px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:transparent;
+}
+
+#formu button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#formu button:active{
+    color: red;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px
+}
